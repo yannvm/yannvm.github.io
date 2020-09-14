@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox Land</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/javascript.js"> </script>
+    <link rel="icon" type="image/png" href="./images/icone.png" />
+</head>
+<body onload="current_date()">
+    <header>
+        <a href="./index.html"> <img id="logo" src="./images/logo.png" alt="Logo Flexbox Land" height="250"> </a>
+    </header>
+    <main>
+        <nav>
+            <div class='dropdown'>
+                <svg width="60" height="50">
+                    <rect x="5" y="2" rx="2" ry="2" width="50" height="5"
+  style="fill:#77b5fe;stroke:#77b5fe;stroke-width:1;opacity:1.0" />
+                    <rect x="5" y="12" rx="2" ry="2" width="50" height="5"
+  style="fill:#77b5fe;stroke:#77b5fe;stroke-width:1;opacity:1.0" />
+                    <rect x="5" y="22" rx="2" ry="2" width="50" height="5"
+  style="fill:#77b5fe;stroke:#77b5fe;stroke-width:1;opacity:1.0" />
+                </svg>
+            </div>
+            <ul class='menu_list'>
+                <li id="accueil"> <a href="./index.html"> Accueil </a> </li>
+                <li id="attraction"> <a href="./attractions.html"> Attractions </a> </li>
+                <li id="reservation"> <a href="./reservation.html"> Réservation </a> </li>
+                <li id="contacts"> <a href="./contacts.html"> Contacts </a> </li>
+            </ul>
+        </nav>
+        <div class="contenu">
+            <h1> Formulaire de réservation en ligne </h1>
+            <p> Si vous souhaitez venir en groupe, réservez en ligne pour gagner du temps le jour de votre visite ! </p>
+            <form name="reservation" autocomplete="off" >
+                <fieldset>
+                    <legend> <h3> Informations personnelles </h3> </legend>
+                    * : champ obligatoire
+                    <p>
+                        <label for="Nom"> Nom* : &nbsp;</label>
+                        <input type="text" name="Nom" id="Nom" value="" placeholder="ex : 'Trump'" onkeyup="veriform()" onkeypress= "pasentrer()"
+                        pattern="[a-zA-ZÀ-ú\-\s]{3,}" autofocus required title="Veuillez entrer votre prénom en lettres">
+                    </p>
+                    <p>
+                        <label for="prenom">Prénom* : &nbsp;</label>
+                        <input placeholder="ex : 'Donald'" type="text" name="prenom" id="prenom" value="" pattern="[a-zA-ZÀ-ú\-\s]{3,}"
+                        required title="Veuillez entrer votre nom en lettres" onkeyup="veriform()" onkeypress="pasentrer()">
+                    </p>
+                    <p>
+                        <label for="tel"> Téléphone* : &nbsp;</label>
+                        <input placeholder="ex : '0606060606'" type="tel" name="tel" id="tel" pattern="([0-9]{2}){4}[0-9]{2}"
+                        required title="Veuillez entrer votre numéro de téléphone au format 10 chiffres" onkeyup="veriform()" onkeypress="pasentrer()">
+                    </p>
+                    <p>
+                        <label for="mail"> Mail* : &nbsp;</label>
+                        <input type="email" name="mail" id="mail" value="" placeholder="ex : 'donald.trump@html.fr'" title="Veuillez entrer votre adresse mail" onkeyup="veriform()" onkeypress="pasentrer()">
+                    </p>
+                    <p>
+                        Sexe : &nbsp;
+                        <input type="radio" name="sexe" id="sexeH" value = "Homme"/>
+                        <label for="sexeH"> Homme &nbsp;</label>
+                        <input type="radio" name="sexe" id="sexeF" value="Femme"/>
+                        <label for="sexeF"> Femme &nbsp;</label>
+                        <input type="radio" name="sexe" id="sexeA" value="Ne se prononce pas" checked/>
+                        <label for="sexeA"> Ne se prononce pas &nbsp;</label>
+                    </p>
+                    <p>
+                        <label for="age"> Âge* : &nbsp;</label>
+                        <input placeholder="ex : '18'" type="text" name="age" id="age"  size="2" value="" pattern="^(?:1[01][0-9]|120|1[7-9]|[2-9][0-9])" required title="Veuillez entrer votre âge (> 18 ans)" onkeydown="veriform()" onkeypress="pasentrer()"/> ans
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend> <h3> Informations du groupe </h3> </legend>
+                    <p>
+                        <label for="Adultes">Adulte(s) : &nbsp;</label>
+                        <select name="Adultes" id="Adultes">
+                            <option value="1"> 1 </option>
+                            <option value="2"> 2 </option>
+                            <option value="3"> 3 </option>
+                            <option value="4"> 4 </option>
+                            <option value="5"> 5 </option>
+                            <option value="6"> 6 </option>
+                            <option value="7"> 7 </option>
+                            <option value="8"> 8 </option>
+                            <option value="9"> 9 </option>
+                            <option value="10"> 10</option>
+                            <option value="11"> Plus de 10</option>
+                        </select>
+                        <label for="Enfants"> &nbsp; Enfant(s) : &nbsp;</label>
+                        <select name="Enfants" id="Enfants">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">Plus de 10</option>
+                        </select>
+                        <span> &nbsp; </span>
+                        <input type="button" id="val_groupe" name="validation_grp" value="Valider" onclick="nb_adulte()"/>
+                    </p>
+                    <div id="div_test"></div>
+                </fieldset>
+
+                <fieldset>
+                    <legend> <h3> Date </h3> </legend>
+                    <p>
+                        <label for="Date_reser"> Date de réservation souhaitée* : &nbsp; </label>
+                        <input type = "date" name="Date_reser" id="Date_reser" max="2021-08-31">
+                    </p>
+                </fieldset>
+                <p class="boutons">
+                    <input type="submit" name="soumettre" value="Réserver"  disabled onclick="resume_reservation();confirmation();" onmouseenter="veriform();" >
+                    <button type="button" name="recommencement" onclick="recommencer()">Recommencer</button>
+                </p>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p id="names">Debbah Nagi - Vander Meersche Yann</p>
+            <a href="./reservation.html#logo"> <img id="to_top" src="./images/to_top.png" height="51" alt="Flèche de retour en haut de la page"> </a>
+            <p id="comp">© 2020-2020, Flexbox.com, Inc.</p>
+        </div>
+    </footer>
+</body>
+</html>

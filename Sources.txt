@@ -1,0 +1,69 @@
+IMAGES:
+
+Index :
+    Header :
+    https://i.pinimg.com/originals/8b/59/d4/8b59d46a378d48355548f77bbd7452da.jpg?fbclid=IwAR3Z6P1ECqSV9ydGFRjBlneG-kb9ZYZSF_e70tB8ckocOIloUQ2r5-Y76TQ
+
+    background :
+    https://www.vectorstock.com/royalty-free-vectors/seamless-vectors
+
+    flèche footer :
+    https://www.google.com/url?sa=i&url=https%3A%2F%2Fqueensknights.ca%2F&psig=AOvVaw1vedJ-e5hCd0Z08leEUJBb&ust=1583836935993000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiA1MaajegCFQAAAAAdAAAAABAD
+    
+    body1 :
+    https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwih7P2-ko3oAhUJhRoKHRWKAH8QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.realisaprint.com%2Fblog%2Fconseils%2Fparc-attraction-must-have-attrayants-pour-chaque-manege%2F&psig=AOvVaw1_cSJVCZjDQHYmwYIGKgxK&ust=1583834783840324
+
+    body2:
+    https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.alicornio.co.za%2Fwp-content%2Fuploads%2F2019%2F06%2Famusement-park-01.png&imgrefurl=https%3A%2F%2Fwww.alicornio.co.za%2Famazing-business-intelligence-amusement-parks%2F&tbnid=w2DoUfp48WEhKM&vet=12ahUKEwjfspX-ko3oAhUH8RoKHeNCBIsQMygAegUIARDZAQ..i&docid=rPtiRco4bNRpUM&w=523&h=350&q=amusement%20park&client=ubuntu&ved=2ahUKEwjfspX-ko3oAhUH8RoKHeNCBIsQMygAegUIARDZAQ
+
+    body3:
+    https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F0f%2Fad%2Ff7%2F99%2Fparc-avec-des-attractions.jpg&imgrefurl=https%3A%2F%2Ffr.tripadvisor.ch%2FLocationPhotoDirectLink-g188633-d2716277-i263059353-Drievliet-The_Hague_South_Holland_Province.html&tbnid=CrFASIz5Q4CEgM&vet=12ahUKEwi3_f66mI3oAhUQhhoKHcgsAOQQMygAegQIARAY..i&docid=CH2j14X4CN0njM&w=550&h=413&q=amusement%20ride&hl=fr&ved=2ahUKEwi3_f66mI3oAhUQhhoKHcgsAOQQMygAegQIARAY
+
+    body4:
+    https://www.google.com/imgres?imgurl=https%3A%2F%2Fall.accor.com%2Fmagazine%2Fimagerie%2Fvampire_01-c96e.jpg&imgrefurl=https%3A%2F%2Fall.accor.com%2Ffr%2Fbelgium%2Fmagazine%2Fone-hour-one-day-one-week%2Fles-6-meilleures-attractions-de-walibi-et-aqualibi-belgique-e5c86.shtml&tbnid=HU3mtNrBGdo54M&vet=12ahUKEwjDw9rNmI3oAhVF4oUKHRzOD_cQMygAegUIARC5AQ..i&docid=-t6cuz5vDuhX4M&w=5616&h=3744&q=parc%20walibi%20belgique&hl=fr&ved=2ahUKEwjDw9rNmI3oAhVF4oUKHRzOD_cQMygAegUIARC5AQ
+
+
+
+Attraction :
+    Montagnes russes :
+    https://dgm-industrie.fr/piste-montagnes-russes/
+    https://www.dgm-industrie.fr/wp-content/uploads/2018/08/Piste-montagnes-russes06.jpeg
+
+    Ascenseur :
+    wikipedia.org
+    https://upload.wikimedia.org/wikipedia/commons/d/d4/Flash_tower_parc_du_bocasse.jpg
+
+    Auto-tamponneuse: 
+    http://manege-forain.com/location_manege_adulte/location_manege_adulte.htm
+    https://lh6.googleusercontent.com/proxy/RpbDFpwAw420VPMg8zWFgShg8bW-kynYmt411wfpbTVnQ4R6EhU8UvB-nnlSN8tx78hk3ATLMW20xd7VkHO2gx6PVK1n_ZU0hhPcemvP1F5ZTvNLy1hcBes-Ho0H
+
+    Grande roue: 
+    lesoir.be
+    https://www.lesoir.be/sites/default/files/dpistyles_v2/ena_16_9_in_line/2019/09/06/node_246193/26864115/public/2019/09/06/B9720818658Z.1_20190906181009_000+G5LEDAP81.1-0.png.jpg?itok=nqaOjHkP1567786710
+
+    Bateau:
+    https://www.trips-n-pics.com/
+    https://www.trips-n-pics.com/uploads/3/7/0/2/37020851/11_28.jpg
+
+
+Contact :
+
+    Photo Nagi :
+    https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.redd.it%2Fgoe8dtjsywe41.jpg&imgrefurl=https%3A%2F%2Fwww.i.reddit.com%2Fuser%2Fjustsomeguy000317.compact&tbnid=aVBnmnN5C9F3YM&vet=12ahUKEwigt8fvmo3oAhURgRoKHSqUCCkQMygAegUIARCGAQ..i&docid=2_1mxCwbCjeaFM&w=4000&h=2662&itg=1&q=brad%20pitt&hl=fr&ved=2ahUKEwigt8fvmo3oAhURgRoKHSqUCCkQMygAegUIARCGAQ
+
+
+    Photo Yann :
+    https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.eventworld.co%2Fblob%2Fimages%2Fpg%2Frobbie-williams_edd2a_opgh.jpg&imgrefurl=https%3A%2F%2Fwww.eventworld.co%2Flas-vegas%2Fmarch%2F&tbnid=S5pXNu3iTQC9TM&vet=12ahUKEwipnZeXm43oAhVV44UKHadrBaAQMygAegQIARAY..i&docid=Hyft1WULQ_PVCM&w=1920&h=1080&itg=1&q=robbie%20williams&hl=fr&ved=2ahUKEwipnZeXm43oAhVV44UKHadrBaAQMygAegQIARAY
+
+
+
+
+
+Conception : 
+    Cours et TP javascript,W3 school et fondation Mozilla, sur la gestion des événements (append, innerhtml, disabled, blocage de l'entrée... notamment).
+
+    Cours sur les Flexboxs :
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    https://www.youtube.com/watch?v=Pl7LbpGr2uU
+    https://www.youtube.com/watch?v=LNqBKTeeiWo
+

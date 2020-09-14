@@ -1,0 +1,481 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-image: url("../images/background.png");
+    background-attachment: fixed;
+}
+
+
+
+/* Header*/
+header{
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("../images/header.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+#logo{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#logo:hover{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+
+
+/* Bloc entre le header et le footer*/
+main{
+    max-width: 1444px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.85);
+}
+
+hr{
+    color: #77b5fe;
+    margin: 40px 125px;
+}
+
+
+/* Barre de navigation*/
+nav{
+    display: flex;
+    justify-content: center;
+    /*position: sticky;
+    top: 0;*/
+}
+
+.menu_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    background-color: #77b5fe;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    border-style: solid;
+    border-width: 0px 2px 2px 2px; 
+}
+
+.menu_list li{
+    width: 176px;
+    display: inline;
+    padding: 25px;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.menu_list a, a:hover, a:visited, a:active{
+    color: white;
+    text-decoration: none;
+}
+
+.menu_list #accueil, #attraction, #reservation{
+    border-style: solid;
+    border-width: 2px 2px 0px 0px;
+}
+
+.menu_list #contacts{
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+}
+
+nav li:hover{
+    font-size: 29px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    transition: all 0.5s;
+}
+
+nav li{
+    transition: all 0.5s;
+}
+
+
+.dropdown{
+    display: none;
+    margin: 15px 0px 0px -15px;
+}
+
+
+@media screen and (max-width: 925px){
+    .dropdown{
+        display: block;
+    }
+    .menu_list{
+        display: none;
+    }
+    nav:hover .menu_list{
+        display: flex;
+        width: 681px;
+    }
+    nav:hover .menu_list #attraction{
+        border-right-width: 0px;
+    }
+    nav:hover .dropdown{
+        display: none;
+    }
+}
+
+
+
+/* Contenu*/
+.contenu{
+    padding: 10px 80px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.text{
+    flex-basis: 70%;
+    text-align:justify;
+}
+
+.pics img{
+    max-width: 80%;
+    height: auto;
+ }
+
+.pics{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1021px){
+    .pics{
+        flex-direction: row;
+        flex-basis: 100%;
+        justify-content: space-between;
+    }
+    .text{
+        flex-basis: 100%;
+    }
+    .pics img{
+    max-height: 80%;
+    width: auto;
+    vertical-align: middle;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .pics{
+        flex-direction: column;
+        flex-basis: 100%;
+        justify-content: space-between;
+    }
+    .pics img{
+    vertical-align: middle;
+    }
+    .top_pic{
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Présentation */
+#presentation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#presentation h1{
+    flex-basis: 100%;
+}
+
+#presentation .pics{
+    margin-right: -25px;
+}
+
+/* Flex */
+#flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#flexbox .pics{
+    margin-right: 0px;
+    margin-left: -25px;
+}
+
+#flexbox h1{
+    text-align: right;
+    flex-basis: 100%;
+}
+
+
+/* Carte */
+#carte{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+
+#carte h1{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+#carte .leftmap{
+    flex-basis: 22%;
+    padding-right: 3%; 
+}
+
+#carte .rightmap{
+    flex-basis: 22%;
+    padding-left: 3%;    
+}
+
+#carte .map{
+    flex-basis: 50%;
+}
+
+
+@media screen and (max-width: 1021px){
+    #carte .map{
+        flex-basis: 100%;
+    }
+    #carte .rightmap{
+        flex-basis: 47%;
+        order: 1;
+    }
+    #carte .leftmap{
+        flex-basis: 47%;
+        order: 1;
+    }   
+}
+
+@media screen and (max-width: 500px){
+    #carte .rightmap{
+        flex-basis: 100%;
+        padding-left: 0%;
+        order: 1;
+    }
+    #carte .leftmap{
+        flex-basis: 100%;
+        padding-right: 0%; 
+        order: 1;
+    }   
+}
+
+
+/* Commentaires*/
+form fieldset{
+    border: 2px solid #77b5fe;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;  
+    border-radius: 20px;
+}
+
+fieldset legend{
+    color: #77b5fe;
+}
+
+
+/* Footer */
+footer{
+    background-color: #77b5fe;
+}
+
+footer div{
+    max-width: 1444px;
+    margin: 0px auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+footer p{
+    padding: 0px 80px;
+    color: white;
+    font-weight: 900;
+}
+
+#to_top{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#to_top:hover{
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+
+
+
+/* Formulaire de réservation */
+.boutons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.plus{
+    float: right;
+}
+
+
+#val_groupe{
+    float: right;
+}
+
+
+
+/* Contact */
+.CV{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.milieu{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.CV h1{
+    text-align: center;
+    flex-basis: 100%;
+    text-shadow: 0 0 2px #000000;
+}
+
+.CV img{
+    margin: auto;
+    border-radius: 200px;
+    border: 5px solid #77b5fe;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: space-around;
+    background-color: rgba(119, 181, 254, 0.9);
+    border-radius: 200px;
+    color: white;
+}
+
+.contact p, ul{
+    display: block;
+    padding: 0px 15px;
+}
+
+.corpsCV{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 100px;
+}
+
+.corpsCV h2{
+    text-transform: uppercase;
+}
+
+.experience{
+    flex-basis: 48%;
+    margin-right: 2%;
+}
+
+.formation{
+    flex-basis: 48%;
+    margin-left: 2%;
+}
+
+.bas_cv{
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bas_cv div{
+    margin: 0px 0px;
+}
+
+
+@media screen and (max-width: 1021px){
+    .bas_cv{
+        flex-direction: column;
+    }
+    .formation, .experience{
+        flex-basis: 100%;
+        margin: 0px 0px;
+    }
+    .bas_cv div{
+        margin: 0px 0px;
+    }
+}
+
+
+
+ /* Attractions */
+.pres_attraction{
+    display: flex;
+    height: 350px;
+    border: 2px solid #77b5fe;
+    border-radius: 20px;
+}
+
+.pres_attraction img{
+    width: 450px;
+    height: 350px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.pres_attraction .description{
+    padding: 0px 30px; 
+    overflow: hidden;
+}
+
+.pres_attraction .description:hover{
+    overflow: scroll;
+}
